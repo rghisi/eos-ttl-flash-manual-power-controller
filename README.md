@@ -3,7 +3,7 @@ Software and Hardware to control the power of old Canon EOS TTL flash/speedlite.
 
 ##Rationale
 
-Digital EOS cameras uses E-TTL/E-TTLII flash system wich requires compatible E-TTL/E-TTLII flashes also known as speedlites in Canon world.
+Digital EOS cameras uses E-TTL/E-TTLII flash system which requires compatible E-TTL/E-TTLII flashes also known as speedlites in Canon world.
 
 Film EOS cameras uses older TTL/A-TTL flash system with requires TTL/A-TTL compatible speedlites.
 
@@ -15,7 +15,7 @@ This project aims to build a small and simple power controller for EOS TTL speed
 
 ##The Concept
 
-Canon A-TTL/E-TTL/E-TTLII speedlites have a hotshoe pin called "quench" which enables the flash light to be shutdown before the end of the full power flash, providing a way to control the amount of flash power iluminating the scene as shown in ["Adding manual power control to the Canon 200E"](http://rudys-rants.blogspot.com.br/2010/06/glass-garden-mosaics.html) (Rudy's Rants blog).
+Canon A-TTL/E-TTL/E-TTLII speedlites have a hotshoe pin called "quench" that shutdowns the flash light before full flash duration is reached. This mechanism provides a way to control the amount of flash power iluminating the scene as shown in ["Adding manual power control to the Canon 200E"](http://rudys-rants.blogspot.com.br/2010/06/glass-garden-mosaics.html) (Rudy's Rants blog).
 
 The general idea of this project is to control the quench time to generate the right amount of flash duration corresponding to a user selectable power.
 
